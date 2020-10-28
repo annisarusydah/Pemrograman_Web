@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Registrasi Siswa</title>
+</head>
+<body>
+    <center>
+        <header>
+            <h1>Registrasi Siswa</h1>
+            <hr>
+        </header>
+    </center>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="nama_lengkap">Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama_lengkap" placeholder="Masukkan Nama Lengkap"></td>
+            </tr>
+            <tr>
+                <td><label for="nama_panggilan">Nama Panggilan</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama_panggilan" placeholder="Masukkan Nama Panggilan"></td>
+            </tr>
+            <tr>
+                <td><label for="tempat">Tempat Lahir</label></td>
+                <td>:</td>
+                <td><input type="text" name="tempat" placeholder="Masukkan Kota Lahir Anda"></td>
+            </tr>
+            <tr>
+                <td><label for="tanggal">Tanggal Lahir</label></td>
+                <td>:</td>
+                <td><input type="date" name="tanggal"></td>
+            </tr>
+            <tr>
+                <td><label for="jenis_kelamin">Jenis Kelamin</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jenis_kelamin">Perempuan
+                    <br>
+                    <input type="radio" name="jenis_kelamin">Laki-Laki
+                </td>
+            </tr>
+            <tr>
+                <td><label for="agama">Agama</label></td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option value="">----Pilih----</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Konghucu">Konghucu</option></h4>
+                        <br>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kewarganegaraan">Kewarganegaraan</label></td>
+                <td>:</td>
+                <td><input type="text" name="kewarganegaraan" placeholder="Asal Negara Anda"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="email" name="email" placeholder="Masukkan Email Anda"></td>
+            </tr>
+            <tr>
+                <td><label for="nomor">No. HP</label></td>
+                <td>:</td>
+                <td><input type="text" name="nomor" placeholder="Masukkan No. HP Anda"></td>
+            </tr>
+            <tr>
+                <td><label for="asal_sekolah">Asal Sekolah</td>
+                <td>:</td>
+                <td><input type="text" name="asal_sekolah" placeholder="Nama Sekolah Anda"></td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td><textarea name="alamat" id="" cols="82" rows="10" placeholder="Alamat Rumah"></textarea></td>
+            </tr>
+        </table>
+        <center>
+            <button type="Submit" style="background-color:rgb(51, 209, 51);">Kirim</button>
+            <button type="Reset" style="background-color:rgb(255, 0, 0);">Batal</button>
+        </center>
+    </form>
+</body>
+</html>
